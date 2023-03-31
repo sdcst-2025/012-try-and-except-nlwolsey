@@ -1,16 +1,15 @@
-#! python3
+#!python3
+# try except example
 
-"""
-we are going to be checking the value of the variable "name"
-before we have input that creates it, so we should create
-a variable with no contents otherwise the conditional statement
-might throw an error stating that the variable does not exist
-"""
-name = ""
+#Basic try except example
+try:
+    print(x)
+except:
+    print("There was an error")
 
-while name != "Marvin the Martian":
-    name = input("Who is your favorite cartoon character?")
-    if name != "Marvin the Martian":
-        print("  You can't be serious.")
-
-print("Marvin the Martian is my favorite character, too!")
+print()
+#Basic try except example where the error is captured
+try:
+    print(x)
+except Exception as e:
+    print(f"There was an error {e}")
