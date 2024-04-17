@@ -4,10 +4,7 @@
 # format: ax^2 + bx + c = 0 and calculate the solutions of the equation
 # rounded to 2 decimal places. Use a try...except block to catch if there
 # is no solution
-# incorporate a while loop to keep having the user enter in values for a,b,c
-# until they are valid
-# incorporate a second while loop to keep repeating the program without
-# having to rerun it.
+
 
 """ Sample output:
 Enter in the coefficients for a quadratic equation in the format:

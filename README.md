@@ -18,12 +18,12 @@ Try is a useful work around for when a program is not working correctly, but fin
 ## Task1
 Retrieve numerical input
 
-The following code will not work if the user enters in  invalid characters (ie non numerical characters) modify this code with a while loop along with a try...except block so that the user will keep entering in a number until they have entered a value integer value
+The following code will not work if the user enters in invalid characters (ie non numerical characters) modify this code with a try...except block so that the user will receive an error msesage if the user input is not valid
 
 ## Task2
 Reciprocal
 
-Have the program iterate through the list and determine the reciprocal of each number as a decimal and print it. use the try/except to find any invalid values and display the error message
+Determine the reciprocal of each number as a decimal and print it. use the try/except to find any invalid values and display the error message
 
 ## Task 3
 Square root of a number
@@ -34,5 +34,3 @@ Have the user enter in a number.  Use a try-except to see if the input is a vali
 Quadratic Formula revisited
 
 Have the user enter in the coefficients of a quadratic equation in the format: ax^2 + bx + c = 0 and calculate the solutions of the equation rounded to 2 decimal places. Use a try...except block to catch if there is no solution
-* incorporate a while loop to keep having the user enter in values for a,b,c until they are valid
-* incorporate a second while loop to keep repeating the program without having to rerun it.
